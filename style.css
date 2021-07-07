@@ -199,8 +199,9 @@ nav ul li a.active::after {
 nav .menu {
   opacity: 0;
   visibility: hidden;
-  top: -20rem;
+  left: -20rem;
   transition: 0.2s;
+  border: 1px solid red;
 }
 
 nav .menu ul {
@@ -245,7 +246,7 @@ nav .icon-close {
   opacity: 0;
 
   position: absolute;
-  top: -1.5rem;
+  /* top: -1.5rem; */
   right: 1.5rem;
 
   transition: 0.2s;
