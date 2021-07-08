@@ -20,6 +20,7 @@ for (const link of links) {
 /* mudar o header da página quando der scroll */
 const header = document.querySelector("#header");
 const navHeight = header.offsetHeight;
+console.log(navHeight);
 
 function changeHeaderWhenScroll() {
   if (window.scrollY >= navHeight) {

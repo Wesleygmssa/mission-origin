@@ -201,7 +201,6 @@ nav .menu {
   visibility: hidden;
   left: -20rem;
   transition: 0.2s;
-  border: 1px solid red;
 }
 
 nav .menu ul {
